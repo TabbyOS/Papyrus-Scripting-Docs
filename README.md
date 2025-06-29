@@ -104,7 +104,6 @@ Code examples are fully annotated and located in the `examples/` folder. These e
 ├── 📄 placeholder_plugin.esl
 ```
 
-> 🔹 The `placeholder_plugin.esl` is required to enable Nexus packaging. It is completely inert and has no effect on gameplay.
 
 ---
 
