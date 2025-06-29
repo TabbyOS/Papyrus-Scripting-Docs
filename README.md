@@ -1,69 +1,122 @@
+# Papyrus Scripting Docs
 
-# Papyrus Scripting Documentation
+A comprehensive technical reference for scripting with **Papyrus**, the native scripting language used in Bethesda's Creation Engine (Skyrim SE/AE, Fallout 4). This repository serves as a standalone knowledge base and reference guide for mod authors of all levels.
 
-A structured and practical reference for working with Papyrus – the scripting language used in Skyrim and other Creation Engine titles.
-
-This documentation is intended for both newcomers and advanced users. It covers syntax, structure, best practices, and modular scripting strategies.
-
----
-
-## 📘 What's Included
-
-- 📄 **PDF and HTML documentation**  
-  Comprehensive scripting reference covering 50+ pages of structured content.
-
-- 🧪 **Example scripts**  
-  A collection of small, focused `.psc` files demonstrating real-world usage patterns.
-
-- 📦 **Placeholder ESL plugin**  
-  Included for mod distribution compatibility (not affecting gameplay).
-
-- 📑 **README & LICENSE**  
-  With usage guidelines and contributor credits.
+Designed with clarity, modularity, and maintainability in mind, it supports both newcomers and advanced users in understanding the full scripting lifecycle—from basic syntax to in-game integration.
 
 ---
 
-## 🛠️ Requirements (Optional)
+## 📚 Table of Contents
 
-This is a documentation project and does **not** require any modding tools to view.  
-However, the following tools are referenced within some sections:
-
-- [SKSE](https://skse.silverlock.org/) – Required for advanced scripting features  
-- [Creation Kit](https://www.creationkit.com/) – Used for compiling scripts  
-- [PapyrusUtil SE](https://www.nexusmods.com/skyrimspecialedition/mods/13048) *(optional but recommended)*  
-- [MCM Helper](https://www.nexusmods.com/skyrimspecialedition/mods/53000) – Used in one example  
-- [Mod Organizer 2](https://www.nexusmods.com/skyrimspecialedition/mods/6194) *(optional)*  
-- [Vortex](https://www.nexusmods.com/site/mods/1) *(optional)*  
+- [Overview](#overview)
+- [Features](#features)
+- [Documentation Formats](#documentation-formats)
+- [Requirements & Tooling](#requirements--tooling)
+- [Usage](#usage)
+- [File Structure](#file-structure)
+- [License](#license)
 
 ---
 
-## 🧪 Example Scripts
+## Overview
 
-Find small isolated script examples in `/examples/`:
-- Object references and property usage
-- Conditional events
-- Debug logging
-- Script lifecycle functions
+This repository presents a thorough breakdown of Papyrus scripting concepts, including:
 
----
+- Syntax and structure
+- Event-driven logic
+- Script execution and scope
+- Cross-mod integration
+- Best practices for performance and readability
 
-## 📂 Installation
-
-No game files are modified or required.  
-Simply download or clone this repository and open the `docs/` folder for the full guide.
+It also includes a collection of carefully crafted code examples that reflect common patterns in Skyrim scripting. The repository is platform-agnostic and can be used independently of any particular modding tool or environment.
 
 ---
 
-## 🔓 License
+## Features
 
-This content is free to use and share **with proper credit**.  
-**Commercial use is not allowed**. See [LICENSE](./LICENSE) for details.
-
----
-
-## 💬 Feedback & Contributions
-
-If you have suggestions, corrections, or want to share your own examples – feel free to open an Issue or contact me on [NexusMods](https://www.nexusmods.com/users/YOURID).
+- 📖 Rich documentation in PDF and HTML formats
+- 🧩 Modular code examples with real use-case logic
+- ✅ Coding standards and naming conventions
+- 🐞 Debugging guidance and performance tips
+- 🔁 Scalable approaches to quest, alias, and magic effect scripting
+- 🛠️ Compatible with all major modding workflows (CK, xEdit, SKSE)
 
 ---
 
+## Documentation Formats
+
+Located in the `docs/` folder, the documentation is available in:
+
+- `Papyrus_Scripting_Documentation.pdf`: Fully formatted, printer-friendly version.
+- `Papyrus_Scripting_Documentation.html`: Clean, responsive layout for in-browser reading.
+
+Both formats are identical in content and include syntax-highlighted examples, headers, and cross-section navigation.
+
+---
+
+## Requirements & Tooling
+
+While this project does **not require any mods or plugins** to use, it references certain tools that are commonly used during Papyrus development and may enhance your experience.
+
+### Referenced Tools:
+
+| Tool             | Required | Notes                                                                 |
+|------------------|----------|-----------------------------------------------------------------------|
+| SKSE64           | ✔️        | Required for scripting examples that go beyond vanilla capabilities. |
+| Creation Kit     | ✔️        | Essential for compiling and testing scripts in actual mods.          |
+| PapyrusUtil SE   | 🔸Optional| Recommended for advanced topics (arrays, storage systems, etc.).     |
+| MCM Helper       | 🔸Optional| Demonstrated in sections involving Mod Configuration Menu scripting. |
+| Mod Organizer 2  | 🔸Optional| Suggested for structured testing and mod setup.                      |
+| Vortex           | 🔸Optional| Mentioned briefly for broader modding workflows.                     |
+
+> ⚠️ These are referenced only for context or demonstration and are **not needed to read or use** the documentation materials.
+
+---
+
+## Usage
+
+This repository is ideal for:
+
+- 🧠 Learning Papyrus scripting from the ground up
+- 🔍 Referencing implementation logic during mod development
+- 🧪 Experimenting with modular script setups
+- 🧰 Troubleshooting and improving script performance
+
+Code examples are fully annotated and located in the `examples/` folder. These examples are real-world applicable and follow the best practices outlined in the guide.
+
+---
+
+## File Structure
+
+```
+📁 papyrus-scripting-docs
+├── 📁 docs
+│   ├── Papyrus_Scripting_Documentation.pdf
+│   └── Papyrus_Scripting_Documentation.html
+├── 📁 examples
+│   ├── example_quest_alias.psc
+│   ├── event_triggering.psc
+│   └── ...
+├── 📁 assets
+│   └── logo.png
+├── 📄 README.md
+├── 📄 LICENSE.txt
+├── 📄 placeholder_plugin.esl
+```
+
+> 🔹 The `placeholder_plugin.esl` is required to enable Nexus packaging. It is completely inert and has no effect on gameplay.
+
+---
+
+## License
+
+See [LICENSE.txt](./LICENSE.txt) for full terms.
+
+### Summary
+You may:
+- ✅ Use, modify, and share this content for **non-commercial** purposes
+- ✅ Include it in your own documentation or guides, **with credit**
+
+You may not:
+- ❌ Monetize, sell, or redistribute the documentation without proper attribution
+- ❌ Rehost or mirror the content without acknowledging the original author
