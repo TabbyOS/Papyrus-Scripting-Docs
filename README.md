@@ -4,6 +4,8 @@ A comprehensive technical reference for scripting with **Papyrus**, the native s
 
 Designed with clarity, modularity, and maintainability in mind, it supports both newcomers and advanced users in understanding the full scripting lifecycle—from basic syntax to in-game integration.
 
+<img width="595" alt="0001" src="https://github.com/user-attachments/assets/ff30e1f6-40d7-4133-9ab9-3c2dcd03e9b2" />
+
 ---
 
 ## 📚 Table of Contents
@@ -104,6 +106,7 @@ Code examples are fully annotated and located in the `examples/` folder. These e
 ├── 📄 placeholder_plugin.esl
 ```
 
+<img width="595" alt="0002" src="https://github.com/user-attachments/assets/47648c0e-3547-4c02-bb0b-5372d3b3fd74" />
 
 ---
 
