@@ -1,3 +1,4 @@
+
 # Papyrus Scripting Documentation
 
 A structured and practical reference for working with Papyrus – the scripting language used in Skyrim and other Creation Engine titles.
@@ -66,4 +67,3 @@ If you have suggestions, corrections, or want to share your own examples – fee
 
 ---
 
-# Papyrus-Scripting-Docs
